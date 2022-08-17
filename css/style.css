@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "outfit";
+}
+body{
+    background-color: rgb(246, 255, 0);
+}
+
+h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container{
+    background-color: #b9b1b1;
+    padding: 15px 80px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .logo{
+    width: 80px;
+}
+
+.container .navbar{
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
+}
+
+.caricature{
+    width: 400px;
+    padding: 80px 125px 80px 125px;
+}
+
+.section_1{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.about{
+    text-align: justify;
+}
+
+.section_2{
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.page{
+    text-align: justify;
+}
+
+.section_3{
+    background-color: chartreuse;
+}
+
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.interactive_box{
+    width: 250px;
+    height: 150px;
+}
