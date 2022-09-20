@@ -1,76 +1,101 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "outfit";
-}
 body{
-    background-color: rgb(246, 255, 0);
+    background:linear-gradient(black, white);
+    background-repeat: no-repeat;
+    font-family: 'roboto slab';
 }
 
-h2{
-    font-size: 50px;
-    padding-bottom: 10px;
-}
-
-p{
-    font-size: 20px;
-}
-
-.container{
-    background-color: #b9b1b1;
-    padding: 15px 80px 10px 50px;
+.cabecalho__container{
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 50px;
 }
 
-.container .logo{
-    width: 80px;
+
+.cabecalho__container .cabecalho__logo{
+    width: 6vw;
+    margin-top: 20px;
 }
 
-.container .navbar{
-    font-size: 22px;
+.cabecalho__container .cabecalho__navbar a{
+    font-size: 20px;
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.cabecalho__container .cabecalho__navbar a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.section__base {
     display: flex;
-    justify-content: end;
+    align-items: center;
+    margin: 15vh 15vw;
 }
 
-.caricature{
+.section__base .caricature{
     width: 400px;
-    padding: 80px 125px 80px 125px;
+    margin-right: 100px;
 }
 
-.section_1{
-    background-color: aqua;
-    display: flex;
-    align-items: center;
-    padding-right: 150px;
+.section__base .title{
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 0.2em;
 }
 
-.about{
-    text-align: justify;
+.section__base .description{
+    font-size: 20px;
+    text-indent: 10px;
+    text-shadow: 2px 1px 5px white;
 }
 
-.section_2{
-    background-color: darkorchid;
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
+.section__base .caricature__secundary{
+    width: 400px;
+
 }
 
-.page{
-    text-align: justify;
-}
-
-.section_3{
-    background-color: chartreuse;
-}
-
-.title{
+.section__project{
+    font-size: 3em;
+    font-weight: 500;
     text-align: center;
-    padding-top: 20px;
 }
 
-.interactive_box{
-    width: 250px;
-    height: 150px;
+.section__project .interactive__box{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 18vw;
+    padding-top: 30px;
+}
+
+.section__project .interactive__box li{
+    list-style: none;
+    border: 2px solid black;
+    box-shadow: 2px 2px gray, 10px 10px black;
+    border-radius: 10px;
+    padding: 50px 120px;
+}
+
+.footer__contact{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    margin-top: 50px;
+    padding: 15px 20px;
+}
+.footer__contact a{
+    text-decoration: none;
+}
+
+.footer__contact a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer__contact strong{
+    font-weight: 600;
 }
