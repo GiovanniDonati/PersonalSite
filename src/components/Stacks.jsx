@@ -10,13 +10,18 @@ const myStacks = [
     type: "image",
   },
   {
-    name: "ReactJS",
-    icon: "https://skillicons.dev/icons?i=react",
+    name: "Python",
+    icon: "https://skillicons.dev/icons?i=python",
     type: "image",
   },
   {
-    name: "Python",
-    icon: "https://skillicons.dev/icons?i=python",
+    name: "fastAPI",
+    icon: "https://skillicons.dev/icons?i=fastapi",
+    type: "image",
+  },
+  {
+    name: "ReactJS",
+    icon: "https://skillicons.dev/icons?i=react",
     type: "image",
   },
   {
@@ -25,8 +30,28 @@ const myStacks = [
     type: "image",
   },
   {
+    name: "Dart",
+    icon: "https://skillicons.dev/icons?i=dart",
+    type: "image",
+  },
+  {
+    name: "MySQL",
+    icon: "https://skillicons.dev/icons?i=mysql",
+    type: "image",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "https://skillicons.dev/icons?i=postgres",
+    type: "image",
+  },
+  {
     name: "Docker",
     icon: "https://skillicons.dev/icons?i=docker",
+    type: "image",
+  },
+  {
+    name: "Git",
+    icon: "https://skillicons.dev/icons?i=git",
     type: "image",
   },
   {
