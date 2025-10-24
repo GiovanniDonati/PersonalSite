@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <img
-            src="https://media.licdn.com/dms/image/v2/C4D03AQFaBHwGxf05gg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661763856317?e=1758153600&v=beta&t=KGckaO-NKH4kf-DQd03SIV2kTVkIBluK7PEajJY5B4c"
+            src="./perfil.jpg"
             alt="Giovanni Donati"
             className="w-12 h-12 rounded-full object-cover"
           />
