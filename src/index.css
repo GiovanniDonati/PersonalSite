@@ -5,6 +5,41 @@
 @tailwind utilities;
 
 body {
-  font-family: "Inter", sans-serif;
-  @apply bg-gray-50 text-gray-800;
+    font-family: "Inter", sans-serif;
+}
+
+@layer components {
+    .center {
+        @apply flex justify-center items-center;
+    }
+
+    .section-animation {
+        @apply flex-grow transition-all duration-700 p-2 cursor-pointer;
+    }
+
+    .section-animation:hover {
+        @apply flex-grow-[10];
+    }
+
+    .hidden-content {
+        @apply max-h-0 opacity-0 overflow-hidden transition-all duration-500;
+    }
+
+    .section-animation:hover .hidden-content {
+        @apply max-h-80 opacity-100 mt-2;
+    }
+
+    .project-name {
+        @apply transition-all duration-500;
+    }
+
+    .section-animation:hover .project-name {
+        @apply text-xl font-semibold;
+    }
+    .mobile-section-animation {
+        @apply max-sm:border-x-0 max-sm:border-y-2 max-sm:border-y-black;
+        @apply max-sm:h-1/4 max-sm:hover:h-4/5;
+        @apply group-hover:max-sm:h-[10%] hover:group-hover:max-sm:h-5/6;
+        @apply group-hover:max-sm:w-full hover:group-hover:max-sm:w-full;
+    }
 }
